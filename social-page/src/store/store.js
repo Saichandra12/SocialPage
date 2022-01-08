@@ -1,23 +1,26 @@
 import {configureStore,createSlice} from "@reduxjs/toolkit";
 
+const ind = [{likes : 0,comments : 0,shares : 0,views : 0}];
 const slice = createSlice({
     name : "Counter",
-    initialState : {likeCount : 0,commentCount : 0,shareCount : 0},
+    initialState : {ind},
     reducers : {
-        addLikeCount(state,action){
-            state.likeCount = state.likeCount + action.payload;
-        },
-        addCommentCount(state,action){
-            state.commentCount = state.commentCount + action.payload;
-        },
-        addShareCount(state,action){
-            state.shareCount = state.shareCount + action.payload;
+         addLikeCount(state,action){
+            state.ind[0].likes = state.ind[0].likes + action.payload;
+         },
+         addCommentCount(state,action){
+            state.ind[0].comments = state.ind[0].comments + action.payload;
+         },
+         addShareCount(state,action){
+            state.ind[0].shares = state.ind[0].shares + action.payload;
+         },
+        count(state,action){
+            //console.log(action.payload[0].views);
+            state.ind = action.payload;
+            //console.log(state.ind);
         }
     }
-
-
 })
-
 const store = configureStore({
     reducer : slice.reducer
 })
