@@ -1,0 +1,42 @@
+#image {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    display: inline-block;
+}
+.container{
+    margin-top: 10px;
+}
+#body{
+    width:60%;
+    padding: 20px;
+    border: 3px solid gray;
+}
+.name-about{
+    display:inline-block;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: gray;
+}
+
+#research{
+    margin-top: 10px;
+    color: gray;
+}
+#description{
+    font-weight: bold;
+    color: gray;
+}
+
+#btn1,#btn2,#btn3{
+    display: inline;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+#btn1:hover,#btn2:hover,#btn3:hover{
+    background-color: burlywood;
+    color: white;
+}
