@@ -1,4 +1,3 @@
-
 # SocialPage
 ### Section - 1  :  Installation Part
 1. Open command prompt or vs code terminal.
@@ -15,7 +14,7 @@
 1. Now to start the Front End open another command prompt in social-page folder and enter the command
 `npm start`
 
-### Section - 2  :  Dependancies used
+### Section - 2  :  Dependencies used
 1. react
 1. react-dom
 1. react-redux
@@ -24,7 +23,11 @@
 1. sequelize-cli
 1. axios
 
-### Section - 3  :  Features
+### Section - 3 : Requirements
+1. MySQL
+
+
+### Section - 4  :  Features
 1. All the details are display from static json file.
 1. Whenever page is refreshed (or) reload , view count will increases by 1, everytime it retrieve from database.
 1. whenever like button is clicked, like count will increases by 1.
