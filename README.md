@@ -26,7 +26,7 @@
 
 ### Section - 3  :  Features
 1. All the details are display from static json file.
-1. Whenever page is refreshed (or) reload , view count will increases by 1, evertime it retrieve from database.
+1. Whenever page is refreshed (or) reload , view count will increases by 1, everytime it retrieve from database.
 1. whenever like button is clicked, like count will increases by 1.
 1. whenever comment button is clicked, comment count will increases by 1.
 1. whenever share button is clicked, share count will increases by 1.
