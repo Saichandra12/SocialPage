@@ -1,3 +1,7 @@
+#root{
+    font-family: 'Courier New', Courier, monospace;
+    color: #6b5b95;
+}
 #image {
     border-radius: 50%;
     width: 10em;
@@ -5,38 +9,41 @@
     display: inline-block;
 }
 .container{
-    margin-top: 10px;
+    margin-top: 30px;
+    background-color : whitesmoke;
 }
 #body{
     width:60%;
     padding: 20px;
     border: 3px solid gray;
+    border-radius: 50px;
 }
 .name-about{
     display:inline-block;
     padding-top: 20px;
     margin-left: 20px;
-    color: gray;
+       
 }
-
 #research{
     margin-top: 10px;
-    color: gray;
+    
 }
 #description{
     font-weight: bold;
-    color: gray;
+    
 }
 
 #btn1,#btn2,#btn3{
     display: inline;
     margin: 10px;
     border: none;
-    background-color: white;
+    background-color: whitesmoke;
     color: blue;
 }
 
 #btn1:hover,#btn2:hover,#btn3:hover{
-    background-color: burlywood;
+    background-color: lightgreen;
     color: white;
+    border: grey;
+    border-radius: 7px;
 }
